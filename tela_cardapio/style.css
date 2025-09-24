@@ -7,28 +7,123 @@
     font-style: normal;
 }
 
+:root{
+  font-family: "Neuton", serif;
+
+}
+
+
 body{
     background-color: #ffffff;
 }
 
-.container_cabecalho {
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-  max-width: 1440px;
-  /*background-color: #EB7932; */
-  margin: 0 auto;
-  height: 100%;
-  align-items: center;
+header{
+    background-color: #EB7932;
+    height: 100px;
+    
 }
 
 .main_cardapio{
-    width: 90%;
+    background-image: url("../assets/Fundo\ do\ Layout\ \(2\).png");
+
+
+}
+
+.icone_inicio{
+    padding: 25px 25px;
+}
+
+
+.icone_logo{
+    height: 165px;
+    width: 150px;
+    padding: 25px 25px;
+    margin-left: 40px;
+}
+
+
+.img_fundo{
+    width: 1943px;
+    height: 849px ;
+  
+}
+
+    h1{
+        position: absolute;
+        top: 150px;
+        right: 800px;
+
+    }
+
+.sessao_card1{
+    width: 292px;
+    height: 438px;
+    background: linear-gradient(178deg, rgba(229, 124, 32, 1) 50%, rgba(137, 29, 19, 1) 100%);
+    border-radius: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    margin-left: auto;
+    text-align: right;
+    box-shadow: 0 4px 4px 2px #00000025;
+}
+
+.sessao_card2{
+    width: 292px;
+    height: 438px;
+    background: linear-gradient(178deg, rgba(229, 124, 32, 1) 50%, rgba(137, 29, 19, 1) 100%);
+    border-radius: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    margin-left: auto;
+    text-align: right;
+    box-shadow: 0 4px 4px 2px #00000025;
+}
+.sessao_card3{
+    width: 292px;
+    height: 438px;
+    background: linear-gradient(178deg, rgba(229, 124, 32, 1) 50%, rgba(137, 29, 19, 1) 100%);
+    border-radius: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    margin-left: auto;
+    text-align: right;
+    box-shadow: 0 4px 4px 2px #00000025;
+}
+.sessao_card4{
+    width: 292px;
+    height: 438px;
+    background: linear-gradient(178deg, rgba(229, 124, 32, 1) 50%, rgba(137, 29, 19, 1) 100%);
+    border-radius: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    margin-left: auto;
+    text-align: right;
+    box-shadow: 0 4px 4px 2px #00000025;
 }
 
 
 
-header{
-    background-color: #EB7932
 
-}
+
+
+
+
+
+
+
+
+
+
+
