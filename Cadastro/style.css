@@ -1,16 +1,103 @@
-*{
+* {
     padding: 0;
-    margin: 0;
+    margin: 0px;
     box-sizing: border-box;
     font-family: "Neuton";
 }
 
-.container_cabeçalho{
-    width: 100%;
-    height: 50%;
-    background-color: black;
+body {
+    background-color: bisque;
 }
 
-.icone_inicio{
-    margin: 25px;
+
+
+.container_cadastro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 48px;
+    margin-top: 100px;
+
 }
+
+.titulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container_busca button,
+.container_busca button img {
+    width: 60px;
+    height: 60px;
+}
+
+
+.container_busca {
+    display: flex;
+    margin: 100px;
+}
+
+.container_busca input{
+    border-radius: 20px;
+}
+
+.prod_cat input {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.caixa-texto{
+    width: 600px;
+    height: 62px;
+}
+
+.pai_dowload input img {
+    
+    
+}
+
+.area_texto{
+    width: 600px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+.seta{
+    position: relative;
+    top: -55px;
+    right: -610px;
+}
+
+
+
+.descricao {
+    display: flex;
+    align-items: flex-end;
+    margin: 50px;
+}
+
+
+
+
+.logo_menu {
+    display: flex;
+    margin: 0 0 0 48px;
+}
+
+
+/*  
+background-color: #EBEBEB;
+justify-content: center;
+width: 662px;
+height: 62px;
+position: relative;
+margin: 91px 0 0 160px;
+border-radius: 20px;
+border-style: solid;
+*/
