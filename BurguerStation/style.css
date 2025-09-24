@@ -10,6 +10,10 @@
     --sombreamento: 0 4px 4px 2px #00000025;
 }
 
+h1{
+    display: none;
+}
+
 body{
     background-color: #ffffff;
 }
@@ -19,21 +23,8 @@ header {
     height: 100px;
 }
 
-.container_cabecalho {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    max-width: 1440px;
-    /* background-color: aquamarine; */
-    margin: 0 auto;
-    height: 100%;
-    align-items: center;
-}
-
-.main_menu{
-    width: 90%;
-    max-width: 1440px;
-    margin: 0 auto;
+.iconedefundo_menu{
+    background-image: url("../BurguerStation/assets/Fundo\ do\ Layout.png");
     display: flex;
 }
 
@@ -50,9 +41,55 @@ header {
     width: 150px;
 }
 
-/* .banners{
-    width: 460px;
-} */
+.secao_cards{
+    width: calc(100%-360px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%;
+}
+
+.card{
+    margin: 50px 0;
+    height: 360px;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 10px 10px 40px 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 0 0 40px 2px #00000075;
+    width: 260px;
+    background: linear-gradient(178deg,rgba(229, 124, 32, 1) 0%, rgba(137, 29, 19, 1) 100%);
+}
+
+.plus{
+    position: relative;
+    top: 10px;
+    right: -100px;
+}
+
+.whatsapp{
+    position: fixed; /* fixed= exclusivamente para deixar fixo na tela*/
+    right: 30px;
+    bottom: 30px;
+    transition: transform 0.5s ease-in-out,
+                filter 0.5s ease-in-out;}
+
+.whatsapp img{
+    width: 80px;
+    filter: drop-shadow(0 5px 1px #00000025);
+}
+
+.whatsapp:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(0 10px 2px #00000025);
+}
+
+
 
 
 
