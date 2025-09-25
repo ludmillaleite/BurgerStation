@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+:root{
+    --corPrincipal: #FFD188;
+    --arredondamento: 10px;
+    --sombreamento: 0 4px 4px 2px #00000025;
+}
+
 h1{
     display: none;
 }
@@ -33,18 +39,6 @@ header {
 .img_logo{
     height: 165px;
     width: 150px;
-    position: absolute;
-    left: 40px;
-    top: 116px;
-}
-
-.banners{
-    width: 450px;
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 260px;
-    margin-left: 30px;
 }
 
 .secao_cards{
@@ -123,17 +117,35 @@ footer p{
 }
 
 /*MEDIA*/
-@media screen and (max-width: 1100px) {
-    .iconedefundo_menu{
+@media screen and (max-width: 1000px) {
+    .img_logo{
         flex-direction: column;
         align-items: center;
+        width: 95%;
     }
     
-    
-    footer p{
-        font-size: 20px;
+    .secao_logo{
+        position: relative;
+        margin-top: 50px;
     }
-    
+
+    .secao_logo svg{
+        position: absolute;
+        top: 230px;
+        background-color: #ffd188;
+        padding: 10px 40px 5px;
+        border-radius: 20px;
+        box-shadow: 0 4px 4px 2px #00000025;
+    }
+
+    .secao_logo img{
+        width: 150px;
+    }
+
+    .secao_cards{
+        width: 100%;
+    }
+
 }
 
 
