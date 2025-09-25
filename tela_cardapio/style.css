@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -7,34 +7,30 @@
     font-style: normal;
 }
 
-:root{
-  font-family: "Neuton", serif;
-
-}
 
 
-body{
+body {
     background-color: #ffffff;
 }
 
-header{
+header {
     background-color: #EB7932;
     height: 100px;
-    
+
 }
 
-.main_cardapio{
+.main_cardapio {
     background-image: url("../assets/Fundo\ do\ Layout\ \(2\).png");
 
 
 }
 
-.icone_inicio{
+.icone_inicio {
     padding: 25px 25px;
 }
 
 
-.icone_logo{
+.icone_logo {
     height: 165px;
     width: 150px;
     padding: 25px 25px;
@@ -42,88 +38,80 @@ header{
 }
 
 
-.img_fundo{
+.img_fundo {
     width: 1943px;
-    height: 849px ;
-  
+    height: 849px;
+
 }
 
-    h1{
-        position: absolute;
-        top: 150px;
-        right: 800px;
+h1 {
+    position: absolute;
+    top: 150px;
+    right: 800px;
+    font-family: "Neuton", serif;
+    font-weight: 600;
 
-    }
+}
 
-.sessao_card1{
+h2 {
+    font-family: "Moul", serif;
+    color: #00000070;
+    height: 12px;
+    width: 148px;
+    position: relative;
+    top: 60px;
+    font-size: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    font-family: "Neuton", serif;
+
+
+}
+
+p {
+    font-family: "Neuton", serif;
+    font-size: 11px;
+    position: relative;
+    top: 90px;
+}
+
+
+
+
+.sessao_card4,
+.sessao_card3,
+.sessao_card2,
+.sessao_card1 {
     width: 292px;
     height: 438px;
     background: linear-gradient(178deg, rgba(229, 124, 32, 1) 50%, rgba(137, 29, 19, 1) 100%);
     border-radius: 30px;
-    
+    padding: 30px 10px;
+
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10%;
     justify-content: space-between;
-    padding-bottom: 70px;
-    margin-left: auto;
-    text-align: right;
+    align-items: center;
+    margin: 70px;
+    text-align: center;
+    font-size: 10px;
     box-shadow: 0 4px 4px 2px #00000025;
 }
 
-.sessao_card2{
-    width: 292px;
-    height: 438px;
-    background: linear-gradient(178deg, rgba(229, 124, 32, 1) 50%, rgba(137, 29, 19, 1) 100%);
-    border-radius: 30px;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 70px;
-    margin-left: auto;
-    text-align: right;
-    box-shadow: 0 4px 4px 2px #00000025;
-}
-.sessao_card3{
-    width: 292px;
-    height: 438px;
-    background: linear-gradient(178deg, rgba(229, 124, 32, 1) 50%, rgba(137, 29, 19, 1) 100%);
-    border-radius: 30px;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 70px;
-    margin-left: auto;
-    text-align: right;
-    box-shadow: 0 4px 4px 2px #00000025;
-}
-.sessao_card4{
-    width: 292px;
-    height: 438px;
-    background: linear-gradient(178deg, rgba(229, 124, 32, 1) 50%, rgba(137, 29, 19, 1) 100%);
-    border-radius: 30px;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 70px;
-    margin-left: auto;
-    text-align: right;
-    box-shadow: 0 4px 4px 2px #00000025;
+.cards p {
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 20px;
+    width: 278;
+    height: 80px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.plataforma, 
+.combo {
+    margin-top: 20px;
+}
