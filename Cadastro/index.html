@@ -23,24 +23,31 @@
 
 
             <div class="container_busca">
-                <div class="prod_cat" >
-                    <div>
+                <div class="prod_cat">
+                    <div class="linha1">
                         <label for="prod">Produto</label>
-                        <input class="caixa-texto" type="text" name="" id="prod">
+                        <input class="caixa-texto" type="text" value="Adicione um produto" name="" id="prod">
                     </div>
-                    <div class="pai_dowload" >
-                        <label for="cat">Categoria</label>
-                        <input class="caixa-texto" type="text" name="" id="cat">
-                        <input class="seta" type="image" src="../assets/Vector (1).png" alt="">
+                    <div class="cat_img">
+                        <div class="box_cat">
+                            <label for="cat">Categoria</label>
+                            <input class="caixa-text" type="text" value="Categoria do produto" name="" id="cat">
+                        </div>
+                        <label class="seta" for="img">
+                            <img src="../assets/Vector (1).png" alt="">
+                        </label>
+                        <input type="file" id="img">
                     </div>
                 </div>
 
-                <div class="descricao" >
+                <div class="descricao">
                     <label for="desc">Descrição</label>
-                    <textarea class="area_texto" name="" id="desc"></textarea>
+                    <textarea class="area_texto" name="Descrição"  id="desc">
+                        descrição
+                    </textarea> 
                 </div>
                 <button type="submit">
-                    <img src="../assets/Vector (2).png" alt="">
+                    <img class="Botao_confirmar" src="../assets/Vector (2).png" alt="confirmar">
                 </button>
             </div>
         </section>

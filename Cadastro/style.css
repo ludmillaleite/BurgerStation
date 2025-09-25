@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: bisque;
+    background-color: #ffffff;
 }
 
 
@@ -16,9 +16,8 @@ body {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    font-size: 48px;
+    font-size: 36px;
     margin-top: 100px;
-
 }
 
 .titulo {
@@ -27,59 +26,125 @@ body {
     flex-direction: column;
 }
 
-
-.container_busca button,
-.container_busca button img {
-    width: 60px;
-    height: 60px;
+.container_busca button {
+    width: 205px;
+    height: 205px;
+    border-radius: 20px;
+    border: solid;
+    border-color: #EB7932;
+    margin-top: 27px;
 }
 
+.container_busca button img {
+    width: 60px;
+    height: 62px;
+}
 
 .container_busca {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1440px;
     margin: 100px;
+    /* background-color: #EB7932;  */
+    padding: 0%;
 }
 
-.container_busca input{
+.container_busca input {
     border-radius: 20px;
+}
+
+
+
+
+.prod_cat{
+    width: 35%;
+    /* background-color: beige;  */
 }
 
 .prod_cat input {
     display: flex;
     flex-direction: column;
-
 }
 
-.caixa-texto{
-    width: 600px;
+.linha1{
+    width: 100%;
+    /* background-color: aquamarine;  */
+}
+
+.caixa-texto {
+    width: 100%;
+    height: 62px;
+    background-color: #EBEBEB;
+    border: solid;
+    border-color: #EB7932;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.box_cat .caixa-text {
+    width: 100%;
     height: 62px;
 }
 
-.pai_dowload input img {
-    
-    
+.cat_img{
+    display: flex;
+    justify-content: space-between;
 }
 
-.area_texto{
-    width: 600px;
+.box_cat{
+    width: 65%;
+}
+
+.seta {
+    box-sizing: border-box;
+    background-color: #EBEBEB;
+    transform: rotate(180deg);
+    display: flex;
+    width: 100px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: solid 3px #EB7932;
+    align-self: end;
+}
+
+.area_texto {
+    width: 100%;
     height: 200px;
     border-radius: 20px;
-    margin: 20px;
+    border: solid;
+    border-color: #EB7932;
+    background-color: #EBEBEB;
+    resize: none;
+}
+
+.caixa-text {
+    font-size: 20px;
+    padding-left: 15px;
+    background-color: #EBEBEB;
+    border: solid;
+    border-color: #EB7932;
 
 }
 
-.seta{
-    position: relative;
-    top: -55px;
-    right: -610px;
+input[type="file"] {
+    display: none;
 }
 
+.descricao textarea{
+font-size: 25px;
+}
 
 
 .descricao {
-    display: flex;
-    align-items: flex-end;
-    margin: 50px;
+    width: 35%;
+    padding-left: 0%;
+    /* background-color: violet;  */
+    
+
 }
 
 
