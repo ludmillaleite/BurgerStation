@@ -35,6 +35,7 @@ th {
 
 td {
     padding: 10px 3px 5px 3px;
+    
 }
 
 table svg {
@@ -106,14 +107,18 @@ footer p {
         display: flex;
         flex-direction: column;
         margin-bottom: 30px;
-        background-color: #ffffff;
-        border-radius: var(--arredondamento);
-        border: solid 1px var(--corPrincipal);
-        box-shadow: var(--sombra);
+        border-radius: 20px;
+        padding: 10px;
+        background-color: #EBEBEB;
+        border-radius: var(#EB7932);
+        border: solid 1px var(#c4b9b9);
+        box-shadow: var(#EBEBEB);
+    
     }
 
     td {
         border-bottom: none;
+        
     }
 
     td::before {
