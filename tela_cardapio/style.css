@@ -21,9 +21,9 @@ header {
 
 .main_cardapio {
     background-image: url("../assets/Fundo\ do\ Layout\ \(2\).png");
-
-
 }
+
+
 
 .icone_inicio {
     padding: 25px 25px;
@@ -45,21 +45,16 @@ header {
 }
 
 h1 {
-    position: absolute;
-    top: 150px;
-    right: 800px;
     font-family: "Neuton", serif;
     font-weight: 600;
-
+    text-align: center;
+    margin-bottom: 100px;
 }
 
 h2 {
     font-family: "Moul", serif;
     color: #00000070;
     height: 12px;
-    width: 148px;
-    position: relative;
-    top: 60px;
     font-size: 10px;
 }
 
@@ -67,18 +62,24 @@ h2 {
     display: flex;
     justify-content: center;
     font-family: "Neuton", serif;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
-
+.container{
+    display: flex;
+    gap: 5%;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 p {
     font-family: "Neuton", serif;
     font-size: 11px;
-    position: relative;
-    top: 90px;
+
 }
-
-
 
 
 .sessao_card4,
@@ -90,28 +91,63 @@ p {
     background: linear-gradient(178deg, rgba(229, 124, 32, 1) 50%, rgba(137, 29, 19, 1) 100%);
     border-radius: 30px;
     padding: 30px 10px;
+    margin-bottom: 162px;
 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 10%;
+    gap: 5%;
     justify-content: space-between;
     align-items: center;
-    margin: 70px;
+    /* margin: 70px; */
     text-align: center;
     font-size: 10px;
     box-shadow: 0 4px 4px 2px #00000025;
 }
 
-.cards p {
+.div_img{
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+}
+
+.sessao_card4 .div_img img{
+    width: 280px;
+}
+
+.descricao {
     background-color: #ffffff;
     padding: 5px;
     border-radius: 20px;
-    width: 278;
+    width: 95%;
     height: 80px;
 }
 
-.plataforma, 
-.combo {
-    margin-top: 20px;
+ .cards p{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+span{
+    font-weight: 600;
+}
+
+footer{
+    background-color: #EB7932;
+    height: 100px;
+}
+
+.rodape_texto{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 26px;
+}
+
+.whatsaap{
+    margin-left: 1820px;
+}
+
+/*MIDIA*/
+@media  screen and (max-width: 1100px){   
 }
