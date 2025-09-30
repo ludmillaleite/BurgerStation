@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: 0px;
+    margin: 0;
     box-sizing: border-box;
     font-family: "Neuton";
 }
@@ -9,15 +9,30 @@ body {
     background-color: #ffffff;
 }
 
+header{
+    background-color: #EB7932;
+    height: 100px;
+}
 
+.img_logo{
+    height: 165px;
+    width: 150px;
+    position: absolute;
+    left: 40px;
+    top: 116px;
+}
+
+.iconedefundo_cadastro {
+    background-image: url("../assets/Fundo\ do\ Layout\ \(1\).png");
+}
 
 .container_cadastro {
     display: flex;
-    align-items: center;
     flex-direction: column;
     width: 100%;
     font-size: 36px;
     margin-top: 100px;
+    align-items: center;
 }
 
 .titulo {
@@ -26,29 +41,40 @@ body {
     flex-direction: column;
 }
 
+
+.linha1 {
+    width: 100%;
+    /* background-color: aquamarine;  */
+}
+
+.cat_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .container_busca button {
     width: 205px;
-    height: 205px;
+    height: 200px;
     border-radius: 20px;
     border: solid;
     border-color: #EB7932;
-    margin-top: 27px;
+    margin-top: 46px;
 }
 
 .container_busca button img {
-    width: 60px;
-    height: 62px;
+    width: 70%;
+    height: 70%;
 }
 
 .container_busca {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 90%;
     max-width: 1440px;
-    margin: 100px;
-    /* background-color: #EB7932;  */
-    padding: 0%;
+    margin-top: 0px;
+    padding: 2%;
+    height: 50%;
 }
 
 .container_busca input {
@@ -56,21 +82,31 @@ body {
 }
 
 
-
-
-.prod_cat{
+.prod_cat {
     width: 35%;
     /* background-color: beige;  */
 }
+
+
 
 .prod_cat input {
     display: flex;
     flex-direction: column;
 }
 
-.linha1{
-    width: 100%;
-    /* background-color: aquamarine;  */
+.descricao {
+    width: 35%;
+    padding-left: 0%;
+}
+
+.descricao textarea {
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+
+::placeholder{
+    color: #EB7932;
 }
 
 .caixa-texto {
@@ -88,13 +124,10 @@ body {
     height: 62px;
 }
 
-.cat_img{
-    display: flex;
-    justify-content: space-between;
-}
 
-.box_cat{
+.box_cat {
     width: 65%;
+    margin-top: 30px;
 }
 
 .seta {
@@ -127,6 +160,7 @@ body {
     background-color: #EBEBEB;
     border: solid;
     border-color: #EB7932;
+    color: #EB7932;
 
 }
 
@@ -134,18 +168,9 @@ input[type="file"] {
     display: none;
 }
 
-.descricao textarea{
-font-size: 25px;
-}
 
 
-.descricao {
-    width: 35%;
-    padding-left: 0%;
-    /* background-color: violet;  */
-    
 
-}
 
 
 
@@ -155,14 +180,3 @@ font-size: 25px;
     margin: 0 0 0 48px;
 }
 
-
-/*  
-background-color: #EBEBEB;
-justify-content: center;
-width: 662px;
-height: 62px;
-position: relative;
-margin: 91px 0 0 160px;
-border-radius: 20px;
-border-style: solid;
-*/

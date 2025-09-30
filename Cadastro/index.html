@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Burger Station - Cadstro</title>
+    <title>Burger Station - Cadastro</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap"
         rel="stylesheet">
@@ -13,44 +13,54 @@
 </head>
 
 <body>
-    <main>
+    
+    <main class="iconedefundo_cadastro">
+        <header></header>
 
-        <section class="container_cadastro">
-            <div class="titulo">
-                <h2 class="">Cadastro</h2>
-                <img src="../assets/desenho hamburger.png" alt="hamburger">
-            </div>
-
-
-            <div class="container_busca">
-                <div class="prod_cat">
-                    <div class="linha1">
-                        <label for="prod">Produto</label>
-                        <input class="caixa-texto" type="text" value="Adicione um produto" name="" id="prod">
-                    </div>
-                    <div class="cat_img">
-                        <div class="box_cat">
-                            <label for="cat">Categoria</label>
-                            <input class="caixa-text" type="text" value="Categoria do produto" name="" id="cat">
-                        </div>
-                        <label class="seta" for="img">
-                            <img src="../assets/Vector (1).png" alt="">
-                        </label>
-                        <input type="file" id="img">
-                    </div>
-                </div>
-
-                <div class="descricao">
-                    <label for="desc">Descrição</label>
-                    <textarea class="area_texto" name="Descrição"  id="desc">
-                        descrição
-                    </textarea> 
-                </div>
-                <button type="submit">
-                    <img class="Botao_confirmar" src="../assets/Vector (2).png" alt="confirmar">
-                </button>
+        <section>
+            <div>
+                <img class="img_logo" src="../assets/Logo Menu.png" alt="">
             </div>
         </section>
+       
+            <section class="container_cadastro">
+                <div class="titulo">
+                    <h2 class="">Cadastro</h2>
+                    <img src="../assets/desenho hamburger.png" alt="hamburger">
+                </div>
+                
+                
+                <div class="container_busca">
+                    <div class="prod_cat">
+                        <div class="linha1">
+                            <label for="prod">Produto</label>
+                            <input class="caixa-texto" type="text" placeholder="Adicione um produto" name="" id="prod">
+                        </div>
+                        <div class="cat_img">
+                            <div class="box_cat">
+                                <label for="cat">Categoria</label>
+                                <input class="caixa-text" type="text" placeholder="Categoria do produto" name="" id="cat">
+                            </div>
+                            <label class="seta" for="img">
+                                <img src="../assets/Vector (1).png" alt="">
+                            </label>
+                            <input type="file" id="img">
+                        </div>
+                    </div>
+                    
+                    <div class="descricao">
+                        <label for="desc">Descrição</label>
+                        <textarea placeholder="Descrição" class="area_texto" name="Descrição"  id="desc">
+                        </textarea> 
+                    </div>
+                    <button type="submit">
+                        <img class="Botao_confirmar" src="../assets/Vector (2).png" alt="confirmar">
+                    </button>
+                </div>
+            </section>
+
+
+
     </main>
 
 </body>
