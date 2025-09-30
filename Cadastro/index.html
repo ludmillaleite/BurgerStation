@@ -5,18 +5,65 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com">
-
+    <title>Burger Station - Cadastro</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap"
+        rel="stylesheet">
 
 </head>
 
 <body>
-    <main>
+
+    <header></header>
+    
+    <main class="iconedefundo_cadastro">
+
+        <section>
+            <div>
+                <img class="img_logo" src="../assets/Logo Menu.png" alt="">
+            </div>
+        </section>
+
+        <section class="container_cadastro">
+            <div class="titulo">
+                <h2 class="">Cadastro</h2>
+                <img src="../assets/desenho hamburger.png" alt="hamburger">
+            </div>
+
+
+            <div class="container_busca">
+                <div class="prod_cat">
+                    <div class="linha1">
+                        <label for="prod">Produto</label>
+                        <input class="caixa-texto" type="text" placeholder="Adicione um produto" name="" id="prod">
+                    </div>
+                    <div class="cat_img">
+                        <div class="box_cat">
+                            <label for="cat">Categoria</label>
+                            <input class="caixa-text" type="text" placeholder="Categoria do produto" name="" id="cat">
+                        </div>
+                        <label class="seta" for="img">
+                            <img src="../assets/Vector (1).png" alt="">
+                        </label>
+                        <input type="file" id="img">
+                    </div>
+                </div>
+
+                <div class="descricao">
+                    <label for="desc">Descrição</label>
+                    <textarea placeholder="Descrição" class="area_texto" name="Descrição" id="desc">
+                        </textarea>
+                </div>
+                <button type="submit">
+                    <img class="Botao_confirmar" src="../assets/Vector (2).png" alt="confirmar">
+                </button>
+            </div>
+        </section>
+
         <section class="container_lista">
             <h1></h1>
             <h2>Lista</h2>
-            
+
             <table>
                 <thead>
                     <tr>
@@ -31,7 +78,8 @@
                     <tr>
                         <td data-cell="Produto: ">Cheddar a vapor</td>
                         <td data-cell="Categoria: ">Frango</td>
-                        <td data-cell="Descrição: ">Pão com gergelim, dois frangos, molho cremoso sabor queijo cheddar, maionese e alface</td>
+                        <td data-cell="Descrição: ">Pão com gergelim, dois frangos, molho cremoso sabor queijo cheddar,
+                            maionese e alface</td>
                         <td>
                             <img src="../assets/trash-xmark 1.png" alt="Excluir">
                         </td>
@@ -40,7 +88,9 @@
                     <tr>
                         <td data-cell="Produto: ">Expresso duo</td>
                         <td data-cell="Categoria: ">Frango</td>
-                        <td data-cell="Descrição: ">Um suculento hambúrguer de frango, alface, tomate e um delicioso molho furioso de alho.</td>
+                        <td data-cell="Descrição: ">Um suculento hambúrguer de frango, alface, tomate e um delicioso
+                            molho
+                            furioso de alho.</td>
                         <td>
                             <img src="../assets/trash-xmark 1.png" alt="Excluir">
                         </td>
@@ -49,12 +99,15 @@
                 </tbody>
             </table>
         </section>
-        <section>
-            <main>
-                <footer>
-                    <p>ONDE CADA MORDIDA É UMA VIAGEM DE SABOR</p>
-                </footer>
-            </main>
-        </section>
+
+
+
+
     </main>
+    <footer>
+        <p>ONDE CADA MORDIDA É UMA VIAGEM DE SABOR</p>
+    </footer>
+
 </body>
+
+</html>
